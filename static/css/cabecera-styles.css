@@ -1,0 +1,44 @@
+*{
+    padding: 0 px;
+    margin: 0px;
+}
+
+body{
+    background-color: beige;
+    margin: 15px;
+}
+
+header{
+    background-color: black;
+    width: 90%;
+    height: 125px;
+    margin-left: 5%;
+    border-radius: 20px;
+    box-shadow: 12px 12px 12px #333;
+}
+
+header h1{
+    color:beige;
+    text-align: center;
+    line-height: 70px;
+    font-size: 35px;
+    text-shadow: 6px 6px 16px whitesmoke;
+}
+
+header ul{
+    display: flex;
+    float: left;
+}
+
+header ul li{
+    margin-left: 200px;
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: bisque;
+    line-height: 30px;
+
+}
+
